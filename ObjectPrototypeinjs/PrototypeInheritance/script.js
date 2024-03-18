@@ -36,5 +36,7 @@ function Programmer(name, id, salary, language) {
   Employee.call(this, name, id, salary);
   this.language = language;
 }
+Programmer.prototype = Object.create(Employee.prototype);
+Programmer.prototype.constructor = Programmer;
 var P1 = new Programmer('Divya', 123, 20000);
 console.log(P1);
