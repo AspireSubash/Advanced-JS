@@ -62,7 +62,7 @@ body{
     background-color: brown;
     margin: 5rem auto;
     border-radius:  20px;
-    /* display: none; */
+    display: none;
     text-align: center;
 }
 #btn{
